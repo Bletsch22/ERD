@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
   <diagram id="hV7XmaBMHaLm45p3kKiX" name="Page-2">
-    <mxGraphModel dx="1870" dy="993" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2074" dy="1185" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,7 +164,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yHLI14z-7PqphrnmTDB6-39" value="car_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="yHLI14z-7PqphrnmTDB6-37" vertex="1">
+        <mxCell id="yHLI14z-7PqphrnmTDB6-39" value="vehicle_id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="yHLI14z-7PqphrnmTDB6-37" vertex="1">
           <mxGeometry x="30" width="210" height="30" as="geometry">
             <mxRectangle width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -328,7 +328,7 @@
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;endFill=0;" edge="1" parent="1" source="yHLI14z-7PqphrnmTDB6-91">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;dashPattern=8 8;startFill=0;" parent="1" source="yHLI14z-7PqphrnmTDB6-91" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30.000000000000227" y="340" as="targetPoint" />
           </mxGeometry>
@@ -362,7 +362,7 @@
             <mxRectangle width="120" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;rounded=0;exitX=1.006;exitY=0.278;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=ERmany;startFill=0;endFill=0;" edge="1" parent="1" source="yHLI14z-7PqphrnmTDB6-37">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERone;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=ERmany;startFill=0;endFill=0;" parent="1" source="yHLI14z-7PqphrnmTDB6-37" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="340" y="570" as="sourcePoint" />
             <mxPoint x="557" y="400" as="targetPoint" />
@@ -371,13 +371,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endFill=0;" edge="1" parent="1" source="yHLI14z-7PqphrnmTDB6-34" target="yHLI14z-7PqphrnmTDB6-15">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=ERone;startFill=0;endFill=0;" parent="1" source="yHLI14z-7PqphrnmTDB6-34" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="390" y="210" as="sourcePoint" />
-            <mxPoint x="490" y="110" as="targetPoint" />
+            <mxPoint x="280" y="520" as="sourcePoint" />
+            <mxPoint x="490" y="165" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-13" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;rounded=0;exitX=0.005;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;startFill=0;" edge="1" parent="1" source="yHLI14z-7PqphrnmTDB6-33">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-13" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=0;startArrow=ERzeroToMany;rounded=0;exitX=0.005;exitY=0.095;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;startFill=0;" parent="1" source="yHLI14z-7PqphrnmTDB6-33" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
             <mxPoint x="-50" y="230" as="sourcePoint" />
             <mxPoint x="50" y="130" as="targetPoint" />
@@ -387,22 +387,22 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-16" value="vehicle can have many tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-16" value="vehicle can have many tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="750" y="350" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-17" value="tasks can require many parts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-17" value="tasks can require many parts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="520" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-18" value="task can also have many categories" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-18" value="task can also have many categories" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="545" width="210" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-19" value="category can have many tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-19" value="category can have many tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="290" y="50" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-21" value="multiple categorys can have many restoration tasks&amp;nbsp;&lt;div&gt;(ex. electrical and engine)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-21" value="multiple categorys can have many restoration tasks&amp;nbsp;&lt;div&gt;(ex. electrical and engine)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-20" y="33" width="300" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="pBLBvyAdGZZXiL2goWdk-22" value="A vehicle restoration planner.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="pBLBvyAdGZZXiL2goWdk-22" value="A vehicle restoration planner.&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="310" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
