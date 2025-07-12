@@ -388,7 +388,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="pBLBvyAdGZZXiL2goWdk-16" value="vehicle can have many tasks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="750" y="350" width="180" height="30" as="geometry" />
+          <mxGeometry x="740" y="350" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pBLBvyAdGZZXiL2goWdk-17" value="tasks can require many parts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="280" y="520" width="180" height="30" as="geometry" />
